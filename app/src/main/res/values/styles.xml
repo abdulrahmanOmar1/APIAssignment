@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="backbtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:translationY">15dp</item>
+        <item name="android:textSize">17dp</item>
+
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="btnpredict">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/edtPredictAge</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="resultTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/btnPredictAge</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewHome">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#969F0E</item>
+        <item name="android:translationY">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="ButtonHome">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CheackBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:translationY">200dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="TextViewMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:translationY">250dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="ButtonMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:translationY">255dp</item>
+    </style>
+
+    <style name="textviewsginup">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:translationY">150dp</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewBitcoin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">#F4D33F</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btnBitcoin">
+        <item name="android:layout_width">190dp</item>
+        <item name="android:layout_height">69dp</item>
+        <item name="android:layout_below">@id/txtResultBitcin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+</resources>

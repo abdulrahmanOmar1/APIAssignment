@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbackg"
+    tools:context=".PredictgenderActivity">
+    <Button
+        android:id="@+id/backpredictgenderpage"
+        android:text="Back"
+        style="@style/backbtn"
+        android:onClick="backfunctionG"></Button>
+    <EditText
+        android:id="@+id/edtName"
+        style="@style/edtPredictStyle"
+        android:hint="Enter Name to predict his genfer"
+        android:translationY="270dp"
+        />
+
+    <Button
+        android:id="@+id/btnPredictGender"
+        style="@style/btnpredict"
+        android:text="Predict Gender"
+        android:translationY="330dp"
+        android:onClick="predictgender"/>
+
+    <TextView
+        android:id="@+id/txtPredictedGender"
+        android:text=""
+        android:translationY="420dp"
+        style="@style/resultTxt" />
+
+</RelativeLayout>

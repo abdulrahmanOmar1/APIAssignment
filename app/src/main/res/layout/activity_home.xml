@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <Button
+        android:id="@+id/LogoutHomepage"
+        android:text="Logout"
+        style="@style/backbtn"
+        android:onClick="Logoutfunction"></Button>
+    <TextView
+        android:id="@+id/txtHome"
+        android:text="Welcome To MinionsApi "
+        style="@style/TextViewHome" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/Homebtnpredict"
+            android:onClick="OnclickPredictAge"
+            android:text="Predict Age"
+            app:rippleColor="@color/yalow"
+            style="@style/ButtonHome" />
+        <Button
+            android:id="@+id/BitcoinPrice"
+            style="@style/ButtonHome"
+            android:text="Bitcoin Price"
+            app:rippleColor="@color/yalow"
+            android:onClick="OnclickPredictNationality"
+            />
+        <Button
+            android:id="@+id/Predictgender"
+            android:text="Predict gender"
+            style="@style/ButtonHome"
+            app:rippleColor="@color/yalow"
+            android:onClick="OnclickPredictgender"
+            />
+    </LinearLayout>
+</LinearLayout>
+

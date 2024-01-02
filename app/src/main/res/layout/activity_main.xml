@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/agegame"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MainloginText"
+        android:text="Login Page"
+        style="@style/textViewStyle" />
+    <EditText
+        android:id="@+id/Mainedtname"
+        android:hint=" Enter User Name"
+        style="@style/editTextStyle"
+        android:inputType="text"
+       ></EditText>
+    <EditText
+        android:id="@+id/Mainedtpass"
+        android:hint=" Enter Password"
+        style="@style/editTextStyle"
+        android:inputType="textPassword"></EditText>
+    <CheckBox
+        android:id="@+id/chk"
+        android:onClick="btnLoginOnClick"
+        android:text="remember me"
+        style="@style/CheackBox" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="200dp"
+        >
+    <Button
+        android:id="@+id/MainbtnLogin"
+        android:text="Login"
+        android:onClick="MainbtnLogin"
+        style="@style/btnStyle"></Button>
+    <Button
+        android:id="@+id/MainbtnCancel"
+        style="@style/btnStyle"
+        android:onClick="MainOnClickCancel"
+        android:text="Cancel"
+        ></Button>
+        </LinearLayout>
+
+    <TextView
+        android:text="Don't you have account ?"
+
+        style="@style/TextViewMain"></TextView>
+    <Button
+        android:id="@+id/MainbtnSignup"
+        android:text="Signup"
+        android:onClick="MainOnClickSignup"
+        style="@style/ButtonMain"></Button>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dddd"
+    tools:context=".PredictAgeActivity">
+
+    <Button
+        android:id="@+id/backpredictAgepage"
+        android:text="Back"
+        style="@style/backbtn"
+        android:onClick="backfunction"></Button>
+
+    <EditText
+        android:id="@+id/edtPredictAge"
+        style="@style/edtPredictStyle"
+        android:hint="enter a name to predict his age"
+        android:translationY="270dp" />
+
+    <Button
+        android:id="@+id/btnPredictAge"
+        android:text="Predict Age"
+        android:translationY="270dp"
+        android:onClick="btnOnclick"
+        style="@style/btnpredict" />
+
+
+    <TextView
+        android:id="@+id/txtPredictAge"
+        android:text=""
+        android:translationY="290dp"
+        style="@style/resultTxt" />
+
+</RelativeLayout>
